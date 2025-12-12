@@ -1,0 +1,72 @@
+### MAVEN ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### BUILD ###
+build/
+out/
+
+### SPRING BOOT SENSITIVE CONFIG ###
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+### LOG FILES ###
+*.log
+logs/
+
+### ENV FILES ###
+*.env
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+### CERTIFICATES / PRIVATE KEYS ###
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+
+### OS TRASH ###
+Thumbs.db
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### JAVA ###
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
