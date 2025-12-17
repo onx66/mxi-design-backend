@@ -8,7 +8,7 @@ public class MxiDesignSpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MxiDesignSpringBootApplication.class, args);
-		System.out.println("Sonunda oldu mk ya");
+		System.out.println("MxiDesignSpringBootApplication started");
 	}
 
 }

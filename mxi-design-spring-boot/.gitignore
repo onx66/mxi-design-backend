@@ -15,6 +15,7 @@ out/
 ### SPRING BOOT SENSITIVE CONFIG ###
 src/main/resources/application.properties
 src/main/resources/application.yml
+src/main/java/com/mxi_design/mxi_design_spring_boot/Config/CloudinaryConfig
 
 ### LOG FILES ###
 *.log
